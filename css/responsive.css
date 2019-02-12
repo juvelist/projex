@@ -1,0 +1,185 @@
+@media only screen and (max-width: 1186px) {
+	
+	.container {
+		max-width: 960px;
+	}
+
+	.news-contain {
+		margin-bottom: 50px;
+	}
+
+	.services {
+    	padding-bottom: 100px;
+	}
+
+	.art-services,
+	.art-news {
+		width: 300px;
+	}
+
+	.blc-contact-left,
+	.blc-contact-right,
+	.buttons {
+		width: 465px;	
+	}
+	
+}
+
+@media only screen and (max-width: 976px) {
+
+	.padd-bottom {
+    	padding-bottom: 50px;
+	}
+
+	.menu__item {
+		margin-bottom: 8px;
+	}
+
+	.no-floating-nav {
+    	float: none;
+    }
+
+	.title-container {
+		text-align: center;
+	}
+
+	.logo,
+	.nav-bar {
+		margin-top: 20px;		
+	}
+
+	.nav-bar {
+		padding-bottom: 10px;
+	}
+	
+	.container {
+		max-width: 740px;
+	}
+
+	.art-services,
+	.art-news {
+		width: 225px;
+	}
+
+	.comments-autor {
+		margin-bottom: 5px;
+	}
+
+	.blc-contact-left,
+	.blc-contact-right,
+	.buttons {
+		width: 355px;	
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.padd-bottom {
+		padding-bottom: 30px;
+	}
+
+	.no-floating {
+    	float: none;
+    }
+
+	.container {
+		max-width: 580px;
+	}
+
+	.nav-bar {
+		padding-bottom: 5px;
+	}
+
+	.news-contain {
+		margin-bottom: 0;
+	}
+
+	.art-services,
+	.art-news,
+	.blc-contact-left,
+	.blc-contact-right {
+		margin-bottom: 40px;		
+	}
+
+	.art-services,
+	.art-news {
+		text-align: center;
+		width: 100%;
+	}
+
+	.art-news-pic-blick {
+		max-width: 370px;
+	}
+
+	.art-middle-block,
+	.art-middle-block {
+		padding: 0;
+	}
+
+	.art-news-content,
+	.blc-contact-txt {
+		text-align: justify;
+	}
+
+	.art-news-title,
+	.art-news-content {
+		margin-bottom: 8px;		
+	}
+
+
+	.blc-contact-left,
+	.blc-contact-right {
+		width: 100%;
+	}
+
+	.blc-contact-left {
+		margin-bottom: 60px;
+	}
+
+	.buttons,
+	.btn,
+	.map-link {
+		width: 100%;
+	}
+
+	.btn {
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	.title-container {
+		width: auto;
+	}
+
+	.line-black,
+	.line-white {
+		width: 95%;
+	}
+
+	.tel:after {
+	    display: none;
+	}
+
+}
+
+@media screen and (max-width: 331px) {
+	
+	.menu__item.inline-blc {
+		display: block;	
+		margin-left: 0;
+	}
+
+	.menu__link {
+		width: 100%;
+	}
+}
