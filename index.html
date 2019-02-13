@@ -1,162 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="css/responsive.css" />
-		<link rel="shortcut icon" href="images/favicon.ico" />
-		<link rel="icon" href="images/favicon.png" />
-		<title>projex-full</title>
-	</head>
-	<body>
-		<div class="page-wrapper">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="icon" href="images/favicon.png" />
+	<title>projex-full</title>
+</head>
+<body>
+	<div class="welcome-modal__block" id="welcome-block">
+		<section class="welcome-modal" id="welcome-modal">
+			<button type="button" class="welcome-modal__close-btn" id="welcome-close"></button>
+			<h2 class="welcome-modal__title sect-title">Welcome to our official web page</h2>
+			<div class="line-black"></div>
+			<p class="welcome-modal__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at deleniti dolore eveniet expedita explicabo fuga in itaque, laboriosam quae quis quo recusandae tenetur totam, vel! Beatae ea eveniet fugit impedit labore laborum maxime nam repudiandae. Accusamus consequuntur tempora totam veniam. A accusamus asperiores, delectus dicta dignissimos est eveniet incidunt minus molestias nam nisi, non numquam ratione sint tenetur totam voluptatem. Aperiam, consequatur distinctio, ducimus fugiat mollitia necessitatibus officia pariatur sequi similique sunt tempore ullam veniam vero voluptas, voluptates? Eligendi eum ullam voluptatibus! Cumque doloremque fuga hic impedit ipsum, libero nam nesciunt pariatur reprehenderit ullam! Aperiam ea facere quisquam vel!
+				Our support email is <a href="#" class="welcome-modal__link">support@support.com</a>.
+			</p>
+		</section>
+	</div>
+	<div class="page-wrapper">
 
-			<header class="head-block">
-				<div class="title-container container clear-fix">			
-					<a class="logo inline-blc no-floating-nav" href="index.html"></a>			
-					<nav class="nav-bar no-floating-nav">
-						<ul class="menu">
-							<li class="menu__item inline-blc ">
-								<a href="#" class="menu__link menu__link_active">home</a>
-								<!-- menu__link_active -->
-							</li>
-							<li class="menu__item inline-blc">
-								<a href="#" class="menu__link">services</a>
-								<!-- menu__link_active -->
-							</li>
-							<li class="menu__item inline-blc">
-								<a href="#" class="menu__link">portfolio</a>
-								<!-- menu__link_active -->
-							</li>
-							<li class="menu__item inline-blc">
-								<a href="#" class="menu__link">our team</a>
-								<!-- menu__link_active -->
-							</li>
-							<li class="menu__item inline-blc">
-								<a href="#" class="menu__link">blog</a>
-								<!-- menu__link_active -->
-							</li>
-							<li class="menu__item inline-blc">
-								<a href="#" class="menu__link">contact us</a>
-								<!-- menu__link_active -->
-							</li>
-						</ul>
-					</nav>
+		<header class="head-block">
+			<div class="title-container container clear-fix">
+				<a class="logo inline-blc no-floating-nav" href="index.html"></a>
+				<input type="checkbox" id="check-menu">
+				<div class="burger-box">
+					<label for="check-menu" class="check-label"></label>
+					<div class="burger-line burger-line-first"></div>
+					<div class="burger-line burger-line-second"></div>
+					<div class="burger-line burger-line-third"></div>
+					<div class="burger-line burger-line-fourth"></div>
 				</div>
-			</header>
 
-			<main>
-				<section class="services padd-top padd-bottom">
-					<div class="container">
-						<h2 class="sect-title">our services</h2>
-						<div class="line-black"></div>
-						<div class="clear-fix">
-							<article class="art-services">
-								<h3 class="art-services-title">HTML 5 & CSS3</h3>
-								<p>Sed fermentum, ante vel sagittis adipiscing, purus nisi ultrices dolor, a aliquam nunc lacus in turpis. Nonc molestie nini diam. Donec commodo quam sit amet mauris pellentesque, in commodo lorem venenatis.</p>
-							</article>
-							<article class="art-services art-middle-block">
-								<h3 class="art-services-title">SEO Optimization</h3>
-								<p>Sed fermentum, ante vel sagittis adipiscing, purus nisi ultrices dolor, a aliquam nunc lacus in turpis. Nonc molestie nini diam. Donec commodo quam sit amet mauris pellentesque, in commodo lorem venenatis.</p>
-							</article>
-							<article class="art-services">
-								<h3 class="art-services-title">Graphic Design</h3>
-								<p>Sed fermentum, ante vel sagittis adipiscing, purus nisi ultrices dolor, a aliquam nunc lacus in turpis. Nonc molestie nini diam. Donec commodo quam sit amet mauris pellentesque, in commodo lorem venenatis.</p>
-							</article>
-						</div>						
-					</div>					
-				</section>
+				<nav class="nav-bar no-floating-nav">
+					<ul class="menu">
+						<li class="menu__item inline-blc ">
+							<a href="#" class="menu__link menu__link_active">home</a>
+							<!-- menu__link_active -->
+						</li>
+						<li class="menu__item inline-blc">
+							<a href="#" class="menu__link">services</a>
+							<!-- menu__link_active -->
+						</li>
+						<li class="menu__item inline-blc">
+							<a href="#" class="menu__link">portfolio</a>
+							<!-- menu__link_active -->
+						</li>
+						<li class="menu__item inline-blc">
+							<a href="#" class="menu__link">our team</a>
+							<!-- menu__link_active -->
+						</li>
+						<li class="menu__item inline-blc">
+							<a href="#" class="menu__link">blog</a>
+							<!-- menu__link_active -->
+						</li>
+						<li class="menu__item inline-blc">
+							<a href="#" class="menu__link">contact us</a>
+							<!-- menu__link_active -->
+						</li>
+					</ul>
+				</nav>
 
-				<section class="news padd-top padd-bottom">
-					<div class="container">
-						<h2 class="sect-title">the latest news</h2>
-						<div class="line-white"></div>
-						<div class="news-contain clear-fix">
-							<article class="art-news">
-								<div class="art-news-pic-block">
-									<img src="images/IMG-here.png" class="art-news-pic" alt="news">
-								</div>
-								<h3 class="art-news-title">Theme HotelDelixe Released</h3>
-								<p class="art-news-date">15th September, 21:24</p>
-								<p class="art-news-content">Nunc vitae euismod orci, sit amet hendrerit est. Nulla id ipsum rhoncus, porttitor ipsum ut, tempus libero. Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien. Pellentesque vitae ipsum dul. Vivamus a dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at consequat nulla. Nulla luctus dopibus nulla. Lorem ut, tempus libero. Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien. Pellentesque vitae ipsum dul. Vivamus a dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at consequat nulla. Nulla luctus dopibus nulla...</p>
-								<div class="comments">
-									<p class="comments-autor">Don Aase</p>
-									<p class="comments-com">21 Comments</p>
-								</div>
-							</article>
-							<article class="art-news art-middle-block">
-								<div class="art-news-pic-block">
-									<img src="images/IMG-here.png" class="art-news-pic" alt="news">
-								</div>
-								<h3 class="art-news-title">Theme HotelDelixe Released</h3>
-								<p class="art-news-date">15th September, 21:24</p>
-								<p class="art-news-content">Nunc vitae euismod orci, sit amet hendrerit est. Nulla id ipsum rhoncus, porttitor ipsum ut, tempus libero. Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien. Pellentesque vitae ipsum dul. Vivamus a dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at consequat nulla. Nulla luctus dopibus nulla. Lorem ut, tempus libero. Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien. Pellentesque vitae ipsum dul. Vivamus a dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at consequat nulla. Nulla luctus dopibus nulla...</p>
-								<div class="comments">
-									<p class="comments-autor">Don Aase</p>
-									<p class="comments-com">21 Comments</p>
-								</div>
-							</article>
-							<article class="art-news">
-								<div class="art-news-pic-block">
-									<img src="images/IMG-here.png" class="art-news-pic" alt="news">
-								</div>
-								<h3 class="art-news-title">Theme HotelDelixe Released</h3>
-								<p class="art-news-date">15th September, 21:24</p>
-								<p class="art-news-content">Nunc vitae euismod orci, sit amet hendrerit est. Nulla id ipsum rhoncus, porttitor ipsum ut, tempus libero. Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien. Pellentesque vitae ipsum dul. Vivamus a dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at consequat nulla. Nulla luctus dopibus nulla. Lorem ut, tempus libero. Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien. Pellentesque vitae ipsum dul. Vivamus a dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at consequat nulla. Nulla luctus dopibus nulla...</p>
-								<div class="comments">
-									<p class="comments-autor">Don Aase</p>
-									<p class="comments-com">21 Comments</p>
-								</div>
-							</article>
-						</div>
-						<div class="art-video">
-							<iframe class="art-video-frame" width="560" height="315" src="https://www.youtube.com/embed/SnQkTfSpfOU?rel=0&amp;showinfo=0"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							<!--<iframe class="art-video-frame" width="560" height="315" src="https://www.youtube.com/embed/D462Kp2gLIQ?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-						</div>
-					</div>
-				</section>
-
-				<section class="contact padd-top padd-bottom">
-					<div class="container">
-						<h2 class="sect-title">contact us</h2>
-						<div class="line-black"></div>							
-						<form class="blc-contact-form" action="#" method="POST" id="frm" autocomplete="off">
-							<div class="clear-fix">
-								<div class="blc-contact-left no-floating">
-									<input class="form-inpt" type="text" name="name" placeholder="Full Name" />
-									<input class="form-inpt" type="email" name="e-mail" placeholder="E-Mail Adress" />
-									<textarea class="form-txtarea" name="message" rows="9" form="frm" placeholder="Message" ></textarea>								
-								</div>
-								<div class="blc-contact-right no-floating">
-									<article class="blc-contact-info">
-										<h3 class="blc-contact-totle">Information</h3>
-										<p class="blc-contact-txt">Proin nec dignissim tellus, ut hendrerit erat. Vivamus ut augue ac est sagittis ullamcorper a porttitor nibh. Donec non tortor consequat, sollicitudin odio id, vehicula lorem. Suspendisse a euismod sem. Mauris rutrum arcu a lorem aliquet feugiat. Praesent tincidunt lacus at nisl pharetra, nec suscipit risus lobortis. Nunc vitae enim a quam ultrices faucibus. Proin sit amet condimentum libero, ac dignissim enim. Praesent aliquam lacinia dapibus.</p>
-										<div class="tel-address">
-											<p class="address pos-rel">StreetName 163, 254 23 City</p>
-											<a href="tel:+25400145433366" class="tel pos-rel">(+254) 001 454 333 66</a>
-										</div>
-									</article>
-									<div class="buttons clear-fix">
-										<button type="submit" form="frm" class="btn">send message</button>
-											<!-- if page loading, add "loading" class and "disabled" atribute -->
-										<a href="#" class="map-link">view map</a>
-											<!-- if page loading, add "loading" class -->										
-									</div>								
-								</div>							
-								
-							</div>
-						</form>							
-						</div>
-				</section>
-			</main>
-
-		</div>
-		
-		<footer class="foot-block">
-			<div class="foot-container container">
-				<p class="foot-contain">&copy; Copyright 2017 By Projex - All rights Reserved!</p>				
 			</div>
-		</footer>
-	</body>
+		</header>
+
+		<main>
+			<section class="services padd-top padd-bottom">
+				<div class="container">
+					<h2 class="sect-title">our services</h2>
+					<div class="line-black"></div>
+					<div class="clear-fix">
+						<article class="art-services">
+							<h3 class="art-services-title">HTML 5 & CSS3</h3>
+							<p>Sed fermentum, ante vel sagittis adipiscing, purus nisi ultrices dolor, a aliquam nunc lacus in turpis. Nonc molestie nini diam. Donec commodo quam sit amet mauris pellentesque, in commodo lorem venenatis.</p>
+						</article>
+						<article class="art-services art-middle-block">
+							<h3 class="art-services-title">SEO Optimization</h3>
+							<p>Sed fermentum, ante vel sagittis adipiscing, purus nisi ultrices dolor, a aliquam nunc lacus in turpis. Nonc molestie nini diam. Donec commodo quam sit amet mauris pellentesque, in commodo lorem venenatis.</p>
+						</article>
+						<article class="art-services">
+							<h3 class="art-services-title">Graphic Design</h3>
+							<p>Sed fermentum, ante vel sagittis adipiscing, purus nisi ultrices dolor, a aliquam nunc lacus in turpis. Nonc molestie nini diam. Donec commodo quam sit amet mauris pellentesque, in commodo lorem venenatis.</p>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<section class="news padd-top padd-bottom">
+				<div class="container">
+					<h2 class="sect-title">the latest news</h2>
+					<div class="line-white"></div>
+					<div class="news-contain clear-fix">
+						<article class="art-news">
+							<div class="art-news-pic-block">
+								<img src="images/IMG-here.png" class="art-news-pic" alt="news">
+							</div>
+							<h3 class="art-news-title">Theme HotelDelixe Released</h3>
+							<p class="art-news-date">15th September, 21:24</p>
+							<p class="art-news-content">Nunc vitae euismod orci, sit amet hendrerit est. Nulla id ipsum rhoncus, porttitor ipsum ut, tempus libero. Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien. Pellentesque vitae ipsum dul. Vivamus a dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at consequat nulla. Nulla luctus dopibus nulla. Lorem ut, tempus libero. Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien. Pellentesque vitae ipsum dul. Vivamus a dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at consequat nulla. Nulla luctus dopibus nulla...</p>
+							<div class="comments">
+								<p class="comments-autor">Don Aase</p>
+								<p class="comments-com">21 Comments</p>
+							</div>
+						</article>
+						<article class="art-news art-middle-block">
+							<div class="art-news-pic-block">
+								<img src="images/IMG-here.png" class="art-news-pic" alt="news">
+							</div>
+							<h3 class="art-news-title">Theme HotelDelixe Released</h3>
+							<p class="art-news-date">15th September, 21:24</p>
+							<p class="art-news-content">Nunc vitae euismod orci, sit amet hendrerit est. Nulla id ipsum rhoncus, porttitor ipsum ut, tempus libero. Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien. Pellentesque vitae ipsum dul. Vivamus a dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at consequat nulla. Nulla luctus dopibus nulla. Lorem ut, tempus libero. Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien. Pellentesque vitae ipsum dul. Vivamus a dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at consequat nulla. Nulla luctus dopibus nulla...</p>
+							<div class="comments">
+								<p class="comments-autor">Don Aase</p>
+								<p class="comments-com">21 Comments</p>
+							</div>
+						</article>
+						<article class="art-news">
+							<div class="art-news-pic-block">
+								<img src="images/IMG-here.png" class="art-news-pic" alt="news">
+							</div>
+							<h3 class="art-news-title">Theme HotelDelixe Released</h3>
+							<p class="art-news-date">15th September, 21:24</p>
+							<p class="art-news-content">Nunc vitae euismod orci, sit amet hendrerit est. Nulla id ipsum rhoncus, porttitor ipsum ut, tempus libero. Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien. Pellentesque vitae ipsum dul. Vivamus a dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at consequat nulla. Nulla luctus dopibus nulla. Lorem ut, tempus libero. Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien. Pellentesque vitae ipsum dul. Vivamus a dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at consequat nulla. Nulla luctus dopibus nulla...</p>
+							<div class="comments">
+								<p class="comments-autor">Don Aase</p>
+								<p class="comments-com">21 Comments</p>
+							</div>
+						</article>
+					</div>
+					<div class="art-video">
+						<iframe class="art-video-frame" width="560" height="315" src="https://www.youtube.com/embed/SnQkTfSpfOU?rel=0&amp;showinfo=0"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<!--<iframe class="art-video-frame" width="560" height="315" src="https://www.youtube.com/embed/D462Kp2gLIQ?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+					</div>
+				</div>
+			</section>
+
+			<section class="contact padd-top padd-bottom">
+				<div class="container">
+					<h2 class="sect-title">contact us</h2>
+					<div class="line-black"></div>
+					<form class="blc-contact-form" action="#" method="POST" id="frm" autocomplete="off">
+						<div class="clear-fix">
+							<div class="blc-contact-left no-floating">
+								<input class="form-inpt" type="text" name="name" placeholder="Full Name" />
+								<input class="form-inpt" type="email" name="e-mail" placeholder="E-Mail Adress" />
+								<textarea class="form-txtarea" name="message" rows="9" form="frm" placeholder="Message" ></textarea>
+							</div>
+							<div class="blc-contact-right no-floating">
+								<article class="blc-contact-info">
+									<h3 class="blc-contact-totle">Information</h3>
+									<p class="blc-contact-txt">Proin nec dignissim tellus, ut hendrerit erat. Vivamus ut augue ac est sagittis ullamcorper a porttitor nibh. Donec non tortor consequat, sollicitudin odio id, vehicula lorem. Suspendisse a euismod sem. Mauris rutrum arcu a lorem aliquet feugiat. Praesent tincidunt lacus at nisl pharetra, nec suscipit risus lobortis. Nunc vitae enim a quam ultrices faucibus. Proin sit amet condimentum libero, ac dignissim enim. Praesent aliquam lacinia dapibus.</p>
+									<div class="tel-address">
+										<p class="address pos-rel">StreetName 163, 254 23 City</p>
+										<a href="tel:+25400145433366" class="tel pos-rel">(+254) 001 454 333 66</a>
+									</div>
+								</article>
+								<div class="buttons clear-fix">
+									<button type="submit" form="frm" class="btn">send message</button>
+										<!-- if page loading, add "loading" class and "disabled" atribute -->
+									<a href="#" class="map-link">view map</a>
+										<!-- if page loading, add "loading" class -->
+								</div>
+							</div>
+						</div>
+					</form>
+					</div>
+			</section>
+		</main>
+	</div>
+
+	<footer class="foot-block">
+		<div class="foot-container container">
+			<p class="foot-contain">&copy; Copyright 2017 By Projex - All rights Reserved!</p>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
 </html>
