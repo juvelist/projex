@@ -1,13 +1,29 @@
-$(document).ready(function () {
+var modalBlockView = (function() {
+    var welcomeBlock = $('#welcome-block'),
+        welcomeModal = $('#welcome-modal'),
+        welcomeClose = $('#welcome-close'),
+        blockShowingspeed = 700,
+        blockShowingTimeIn = 3000,
+        blockShowingTimeOut = 7000,
+        blockRemovingTime = 1000;
 
-    $('#welcome-block').delay(10000).fadeIn();
-    $('#welcome-modal').delay(10000).animate({top: '0px'});
+    setTimeout(function(){
+        welcomeBlock.fadeIn(blockShowingspeed);
+        welcomeModal.animate({top: '0px'}, blockShowingspeed);
 
-    $('#welcome-block').delay(30000).fadeOut();
-    $('#welcome-modal').delay(30000).animate({top: '-2500px'});
+        setTimeout(function(){
+            welcomeBlock.fadeOut(blockShowingspeed);
+            welcomeModal.animate({top: '-2500px'}, blockShowingspeed);
 
-    $('#welcome-close').click(function () {
-        $('#welcome-block').hide();
-    })
+            setTimeout(function(){
+                welcomeBlock.remove();
 
-});
+            }, blockRemovingTime);
+        }, blockShowingTimeOut);
+    }, blockShowingTimeIn);
+
+    welcomeClose.click(function () {
+        welcomeBlock.fadeOut(blockShowingspeed);
+        welcomeModal.animate({top: '-2500px'}, blockShowingspeed);
+    });
+}());
